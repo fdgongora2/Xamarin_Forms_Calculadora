@@ -27,7 +27,7 @@ namespace AppXamarinMov_Calculadora
             var lastChild = St_OperacionesAnteriores.Children.LastOrDefault();
             if (lastChild != null)
                 Sv_historial.ScrollToAsync(lastChild, ScrollToPosition.MakeVisible, true);
-
+            // Comentario 2
         }
     }
 }
